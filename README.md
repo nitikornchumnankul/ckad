@@ -2,6 +2,10 @@
 
 ### การเตรียมการตั้งค่าก่อนสอบ
 
+```
+alias k="kubectl"
+```
+
 # References
 
 [ตัวอย่างข้อสอบ](https://www.youtube.com/watch?v=5cgpFWVD8ds)
