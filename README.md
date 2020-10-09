@@ -9,6 +9,38 @@ alias kgp="kubectl get po -o wide"
 alias kn=" kubectl config set-context --current --namespace"
 alias krm="kubectl delete --force --grace-periods=0"
 ```
+### declarative command line ของ kubernetes ที่ใช้ kubectl create ได้ (ขอบเขตในข้อสอบ)
+Deployment
+```
+```
+configmap
+```
+kubectl create cm
+```
+cronjob
+```
+kubectl creat cj
+```
+job
+```
+```
+namespace
+```
+```
+quota
+```
+```
+secret
+```
+```
+serviceaccount
+```
+```
+### กรณีลืมระหว่างสอบ
+```
+kubectl create ขนิด --help
+```
+
 ### การใช้ VI ให้ไว
 
 ### หน้าตา Terminal ตอนสอบ
