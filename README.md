@@ -10,32 +10,22 @@ alias kn=" kubectl config set-context --current --namespace"
 alias krm="kubectl delete --force --grace-periods=0"
 ```
 ### declarative command line ของ kubernetes ที่ใช้ kubectl create ได้ (ขอบเขตในข้อสอบ)
-Deployment
-```
-```
-configmap
-```
-kubectl create cm
-```
-cronjob
-```
-kubectl creat cj
-```
-job
-```
-```
-namespace
-```
-```
-quota
-```
-```
-secret
-```
-```
-serviceaccount
-```
-```
+1. Deployment
+
+2. configmap
+
+3. cronjob
+
+4. job
+
+5. namespace
+
+6. quota
+
+7. secret
+
+8. serviceaccount
+
 ### กรณีลืมระหว่างสอบ
 ```
 kubectl create ขนิด --help
