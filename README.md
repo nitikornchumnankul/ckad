@@ -1,5 +1,7 @@
 # เตรียมสอบ CKAD ฉบับภาษาไทย
 
+### การเตรียมการตั้งค่าก่อนสอบ
+
 # References
 
 [ตัวอย่างข้อสอบ](https://www.youtube.com/watch?v=5cgpFWVD8ds)
