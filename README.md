@@ -39,6 +39,16 @@ kubectl create ขนิด --help
 ### หน้าตาฝึกซ้อมจำลองของ [killer.sh](https://killer.sh/login)
 ![หน้าตาฝึกซ้อมจำลองของ killer.sh](https://miro.medium.com/max/1000/1*lYPcto6TAy2oSh7O2u49_Q.png)
 
+## [ตรวจสอบเครื่องมือก่อนสอบ](https://www.examslocal.com/ScheduleExam/Home/CompatibilityCheck)
+
+
+## [System Requirements to take the exam](https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad)
+
+
+
+### คะแนนในแต่ละหัวข้อ
+
+
 
 # References
 
