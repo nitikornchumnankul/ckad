@@ -44,6 +44,24 @@ kubectl create ขนิด --help
 
 ## [System Requirements to take the exam](https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad)
 
+Exams are delivered online and Candidates must provide their own computer with:
+
+Current version of Chrome or Chromium
+you don’t need to install a virtual machine, use a client machine, or anything beyond a Chrome or Chromium browser
+Make sure you have third party cookies turned on for the duration of the exam.
+
+Reliable internet access
+Turn off bandwidth-intensive services (e.g. file sync, dropbox, BitTorrent)
+Ask others who may be sharing your Internet connection not to stream video or download large files.
+
+Microphone
+Please check to make sure it is working before you start your exam session.
+
+Webcam
+Ensure the webcam is capable of being moved as the proctor may ask you to pan your surroundings to check for potential violations of exam policy.
+Try holding up your ID while viewing your webcam feed to ensure your placement and resolution are sufficient for the person viewing your feed to read your ID.
+If you will be testing from an employer-provide ISP or will use an employer provided machine, please ensure that streaming will be allowed using WebRTC.
+
 
 
 ### คะแนนในแต่ละหัวข้อ
