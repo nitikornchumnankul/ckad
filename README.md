@@ -92,7 +92,8 @@ If you will be testing from an employer-provide ISP or will use an employer prov
 
 ### [My Profile](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/my-profile)
 ![](https://gblobscdn.gitbook.com/assets%2F-M5QaeeC1mG9VndIpgJe%2F-MCQgtM4-VukLM1tG7xH%2F-MCQmzJ_-hjLYg8SqXXM%2F2.png?alt=media&token=743afd30-84a8-4ee5-9e28-112511c8146f)
-### คะแนนในแต่ละหัวข้อ
+### [คะแนนในแต่ละหัวข้อ](https://github.com/cncf/curriculum)
+![](https://github.com/nitikornchumnankul/ckad/blob/main/resources/Exam%20Curriculum.png)
 
 
 ## [What score is needed to pass the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks)
