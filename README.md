@@ -11,20 +11,41 @@ alias krm="kubectl delete --force --grace-periods=0"
 ```
 ### declarative command line ของ kubernetes ที่ใช้ kubectl create ได้ (ขอบเขตในข้อสอบ)
 1. Deployment
-
+```
+kubectl create deploy 
+```
 2. configmap
+```
+kubectl create cm 
+```
 
 3. cronjob
+```
+kubectl create cj
+```
 
 4. job
+```
+kubectl create job
+```
 
 5. namespace
+```
+kubectl create namespace
+```
 
 6. quota
-
+```
+kubectl create quota
+```
 7. secret
-
+```
+kubectl create secret generic
+```
 8. serviceaccount
+```
+kubectl create sa
+```
 
 ### กรณีลืมระหว่างสอบ
 ```
