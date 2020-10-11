@@ -71,6 +71,10 @@ If you will be testing from an employer-provide ISP or will use an employer prov
 ### คะแนนในแต่ละหัวข้อ
 
 
+## [What score is needed to pass the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks)
+
+For the CKAD Exam, a score of 66% or above must be earned to pass.
+
 
 # References
 
