@@ -66,8 +66,8 @@ Ensure the webcam is capable of being moved as the proctor may ask you to pan yo
 Try holding up your ID while viewing your webcam feed to ensure your placement and resolution are sufficient for the person viewing your feed to read your ID.
 If you will be testing from an employer-provide ISP or will use an employer provided machine, please ensure that streaming will be allowed using WebRTC.
 
-
-
+### [Exam Preparation Checklist](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/exam-preparation-checklist#checklist-items)
+![](https://gblobscdn.gitbook.com/assets%2F-M1fWjlaqrc5PxRuWkRx%2F-MABF2cv7lBvbGMGKiqO%2F-MABGlPn5fhdzevUhOP4%2Fexam%20checklist.png?alt=media&token=0d10ac41-3998-4df5-b0cb-b4826b3a8450)
 ### คะแนนในแต่ละหัวข้อ
 
 
