@@ -125,3 +125,5 @@ For the CKAD Exam, a score of 66% or above must be earned to pass.
 [Exam User Interface](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/exam-user-interface#linux-server-terminal)
 
 [ckad-prep-notes ****](https://github.com/twajr/ckad-prep-notes)
+
+[CKAD Tips Kubernetes](https://killer.sh/attendee/b3b6d191-f657-43f6-ae07-7663fe9dc375/tips)
