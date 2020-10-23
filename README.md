@@ -5,6 +5,7 @@
 ```
 vim ~/.bashrc
 alias k="kubectl"
+alias kf="kubectl apply -f"
 alias kgp="kubectl get po -o wide"
 alias kn=" kubectl config set-context --current --namespace"
 alias krm="kubectl delete --force --grace-periods=0"
