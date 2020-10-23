@@ -53,7 +53,23 @@ kubectl create ขนิด --help
 ```
 
 ### การใช้ VI ให้ไว
-
+```
+:<line-number> — go to line
+/<text> — find text
+<n>yy — copy n number of lines from cursor. Just yy to copy a single line
+p — paste copied lines
+G — go to end of file
+gg — go to start of file
+x — delete character
+<n>dd — delete n nmber of lines. Just dd to delete a single line
+```
+### vim
+```
+~/.vimrc
+set tabstop=2
+set expandtab
+set list
+```
 ### หน้าตา Terminal ตอนสอบ
 ![หน้าตา Terminal ตอนสอบ](https://gblobscdn.gitbook.com/assets%2F-M1fWjlaqrc5PxRuWkRx%2F-MACIp1sRjCeyzqaACz5%2F-MACPci2XER6SneRwukr%2FLF%20Certification%20Exams%20ExamUI.png?alt=media&token=7c2ae009-8cd4-4d28-ae6f-d2fdcee2feb8)
 
@@ -92,7 +108,8 @@ If you will be testing from an employer-provide ISP or will use an employer prov
 
 ### [My Profile](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/my-profile)
 ![](https://gblobscdn.gitbook.com/assets%2F-M5QaeeC1mG9VndIpgJe%2F-MCQgtM4-VukLM1tG7xH%2F-MCQmzJ_-hjLYg8SqXXM%2F2.png?alt=media&token=743afd30-84a8-4ee5-9e28-112511c8146f)
-### คะแนนในแต่ละหัวข้อ
+### [คะแนนในแต่ละหัวข้อ](https://github.com/cncf/curriculum)
+![](https://github.com/nitikornchumnankul/ckad/blob/main/resources/Exam%20Curriculum.png)
 
 
 ## [What score is needed to pass the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks)
@@ -115,3 +132,5 @@ For the CKAD Exam, a score of 66% or above must be earned to pass.
 [Exam User Interface](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/exam-user-interface#linux-server-terminal)
 
 [ckad-prep-notes ****](https://github.com/twajr/ckad-prep-notes)
+
+[CKAD Tips Kubernetes](https://killer.sh/attendee/b3b6d191-f657-43f6-ae07-7663fe9dc375/tips)
