@@ -135,3 +135,5 @@ For the CKAD Exam, a score of 66% or above must be earned to pass.
 [ckad-prep-notes ****](https://github.com/twajr/ckad-prep-notes)
 
 [CKAD Tips Kubernetes](https://killer.sh/attendee/b3b6d191-f657-43f6-ae07-7663fe9dc375/tips)
+
+[CKAD-commands](https://github.com/marcusvieira88/CKAD-commands)
