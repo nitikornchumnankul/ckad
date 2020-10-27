@@ -138,4 +138,6 @@ For the CKAD Exam, a score of 66% or above must be earned to pass.
 
 [CKAD-commands](https://github.com/marcusvieira88/CKAD-commands)
 
-[Kubernetes - tips for your CKAD exam by CNCF***](https://en.sokube.ch/post/kubernetes-tips-for-your-ckad-exam-by-cncfX
+[Kubernetes - tips for your CKAD exam by CNCF***](https://en.sokube.ch/post/kubernetes-tips-for-your-ckad-exam-by-cncfX)
+
+[CKAD Certification Exam Preparation Guide and Tips (Aspect)](https://kloudnative.blogspot.com/2020/09/ckad-certification-exam-preparation.html?m=1&fbclid=IwAR3x-EgpkNt2C31o9vw3jzrJSxiI2LkDW2GgQGLjgaTf0ABCAa3jaK1Ejus)
