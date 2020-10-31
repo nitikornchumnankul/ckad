@@ -10,50 +10,11 @@ alias kgp="kubectl get po -o wide"
 alias kn=" kubectl config set-context --current --namespace"
 alias krm="kubectl delete --force --grace-periods=0"
 ```
-### declarative command line ของ kubernetes ที่ใช้ kubectl create ได้ (ขอบเขตในข้อสอบ)
-1. Deployment
-```
-kubectl create deploy 
-```
-2. configmap
-```
-kubectl create cm 
-```
-
-3. cronjob
-```
-kubectl create cj
-```
-
-4. job
-```
-kubectl create job
-```
-
-5. namespace
-```
-kubectl create namespace
-```
-
-6. quota
-```
-kubectl create quota
-```
-7. secret
-```
-kubectl create secret generic
-```
-8. serviceaccount
-```
-kubectl create sa
-```
-
 ### กรณีลืมระหว่างสอบ
 ```
 kubectl create ขนิด --help
 ```
-
-### การใช้ VI ให้ไว
+### การใช้ VI 
 ```
 :<line-number> — go to line
 /<text> — find text
@@ -64,13 +25,17 @@ gg — go to start of file
 x — delete character
 <n>dd — delete n nmber of lines. Just dd to delete a single line
 ```
-### vim
+### ตั้งค่า vim ก่อนสอบ
 ```
 ~/.vimrc
-set tabstop=2
-set expandtab
-set list
+set tabstop=2 // เมื่อกด Tab แล้วให้ขยับหรือ หยุดที่ 2 space
+set expandtab // เอาไว้ตอนกด Tab และให้เปลี่ยนเป็น spaces
+set list //เพื่อดูว่า ช่องว่างนั้นเป็น Tab หรือไม่ เพราะ yaml ของ kubernetes ไม่อนุญาติให้มี Tab
+set shiftwidth=2
+set nu //เพื่อแสดงตัวเลข
+set paste //เพื่อที่จะสามารถ copy and paste ลง vim แล้ว format เดิมไม่เสีย
 ```
+
 ### หน้าตา Terminal ตอนสอบ
 ![หน้าตา Terminal ตอนสอบ](https://gblobscdn.gitbook.com/assets%2F-M1fWjlaqrc5PxRuWkRx%2F-MACIp1sRjCeyzqaACz5%2F-MACPci2XER6SneRwukr%2FLF%20Certification%20Exams%20ExamUI.png?alt=media&token=7c2ae009-8cd4-4d28-ae6f-d2fdcee2feb8)
 
