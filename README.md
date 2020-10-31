@@ -69,31 +69,6 @@ set paste # เพื่อที่จะสามารถ copy and paste ล�
 ![หน้าตาฝึกซ้อมจำลองของ killer.sh](https://miro.medium.com/max/1000/1*lYPcto6TAy2oSh7O2u49_Q.png)
 
 
-
-
-## [System Requirements to take the exam](https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad)
-
-Exams are delivered online and Candidates must provide their own computer with:
-
-Current version of Chrome or Chromium
-you don’t need to install a virtual machine, use a client machine, or anything beyond a Chrome or Chromium browser
-Make sure you have third party cookies turned on for the duration of the exam.
-
-Reliable internet access
-Turn off bandwidth-intensive services (e.g. file sync, dropbox, BitTorrent)
-Ask others who may be sharing your Internet connection not to stream video or download large files.
-
-Microphone
-Please check to make sure it is working before you start your exam session.
-
-Webcam
-Ensure the webcam is capable of being moved as the proctor may ask you to pan your surroundings to check for potential violations of exam policy.
-Try holding up your ID while viewing your webcam feed to ensure your placement and resolution are sufficient for the person viewing your feed to read your ID.
-If you will be testing from an employer-provide ISP or will use an employer provided machine, please ensure that streaming will be allowed using WebRTC.
-
-### [Exam Preparation Checklist](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/exam-preparation-checklist#checklist-items)
-![](https://gblobscdn.gitbook.com/assets%2F-M1fWjlaqrc5PxRuWkRx%2F-MABF2cv7lBvbGMGKiqO%2F-MABGlPn5fhdzevUhOP4%2Fexam%20checklist.png?alt=media&token=0d10ac41-3998-4df5-b0cb-b4826b3a8450)
-
 ### [My Profile](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/my-profile)
 ![](https://gblobscdn.gitbook.com/assets%2F-M5QaeeC1mG9VndIpgJe%2F-MCQgtM4-VukLM1tG7xH%2F-MCQmzJ_-hjLYg8SqXXM%2F2.png?alt=media&token=743afd30-84a8-4ee5-9e28-112511c8146f)
 
