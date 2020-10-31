@@ -14,16 +14,11 @@ alias krm="kubectl delete --force --grace-periods=0"
 ```
 kubectl create ขนิด --help
 ```
-### การใช้ VI 
+### ฟังก์ชั่น vim ที่ใช้บ่อย
 ```
-:<line-number> — go to line
-/<text> — find text
-<n>yy — copy n number of lines from cursor. Just yy to copy a single line
-p — paste copied lines
-G — go to end of file
-gg — go to start of file
-x — delete character
-<n>dd — delete n nmber of lines. Just dd to delete a single line
+:<line-number> — ไปยังบรรทัดที่ต้องการ
+/<text> — หา text
+:2,20d - ลบบรรทัดั้งแต่บรรทัดที่ 2 ถึง 20
 ```
 ### ตั้งค่า vim ก่อนสอบ
 ```
