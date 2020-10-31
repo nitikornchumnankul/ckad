@@ -35,6 +35,8 @@ set shiftwidth=2 # ใช้ตอนโหมด virsual(v) กรณีที�
 set nu # เพื่อแสดงตัวเลข
 set paste # เพื่อที่จะสามารถ copy and paste ลง vim แล้ว format เดิมไม่เสีย
 ```
+### [คะแนนในแต่ละหัวข้อ](https://github.com/cncf/curriculum)
+![](https://github.com/nitikornchumnankul/ckad/blob/main/resources/Exam%20Curriculum.png)
 
 ### หน้าตา Terminal ตอนสอบ
 ![หน้าตา Terminal ตอนสอบ](https://gblobscdn.gitbook.com/assets%2F-M1fWjlaqrc5PxRuWkRx%2F-MACIp1sRjCeyzqaACz5%2F-MACPci2XER6SneRwukr%2FLF%20Certification%20Exams%20ExamUI.png?alt=media&token=7c2ae009-8cd4-4d28-ae6f-d2fdcee2feb8)
@@ -74,8 +76,7 @@ If you will be testing from an employer-provide ISP or will use an employer prov
 
 ### [My Profile](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/my-profile)
 ![](https://gblobscdn.gitbook.com/assets%2F-M5QaeeC1mG9VndIpgJe%2F-MCQgtM4-VukLM1tG7xH%2F-MCQmzJ_-hjLYg8SqXXM%2F2.png?alt=media&token=743afd30-84a8-4ee5-9e28-112511c8146f)
-### [คะแนนในแต่ละหัวข้อ](https://github.com/cncf/curriculum)
-![](https://github.com/nitikornchumnankul/ckad/blob/main/resources/Exam%20Curriculum.png)
+
 
 
 ## [What score is needed to pass the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks)
