@@ -1,75 +1,62 @@
-# เตรียมสอบ CKAD ฉบับภาษาไทย
+# เตรียมสอบ CKAD ฉบับพัท
 
 ### การเตรียมการตั้งค่าก่อนสอบ
 
 ```
-vim ~/.bashrc
+vim ~/.bashrc หรือ ไม่ต้องเข้าไปจัดการส่วนนี้ก็ได้
 alias k="kubectl"
+alias kf="kubectl apply -f"
 alias kgp="kubectl get po -o wide"
 alias kn=" kubectl config set-context --current --namespace"
 alias krm="kubectl delete --force --grace-periods=0"
 ```
-### declarative command line ของ kubernetes ที่ใช้ kubectl create ได้ (ขอบเขตในข้อสอบ)
-1. Deployment
-```
-kubectl create deploy 
-```
-2. configmap
-```
-kubectl create cm 
-```
-
-3. cronjob
-```
-kubectl create cj
-```
-
-4. job
-```
-kubectl create job
-```
-
-5. namespace
-```
-kubectl create namespace
-```
-
-6. quota
-```
-kubectl create quota
-```
-7. secret
-```
-kubectl create secret generic
-```
-8. serviceaccount
-```
-kubectl create sa
-```
-
 ### กรณีลืมระหว่างสอบ
 ```
 kubectl create ขนิด --help
 ```
-
-### การใช้ VI ให้ไว
+### ฟังก์ชั่น vim ที่ใช้บ่อย
 ```
-:<line-number> — go to line
-/<text> — find text
-<n>yy — copy n number of lines from cursor. Just yy to copy a single line
-p — paste copied lines
-G — go to end of file
-gg — go to start of file
-x — delete character
-<n>dd — delete n nmber of lines. Just dd to delete a single line
+:<line-number> — ไปยังบรรทัดที่ต้องการ
+/<text> — หา text
+:2,20d - ลบบรรทัดั้งแต่บรรทัดที่ 2 ถึง 20
 ```
-### vim
+### ตั้งค่า vim ก่อนสอบ
 ```
 ~/.vimrc
-set tabstop=2
-set expandtab
-set list
+set tabstop=2  # เมื่อกด Tab แล้วให้ขยับหรือ หยุดที่ 2 space
+set expandtab # เอาไว้ตอนกด Tab และให้เปลี่ยนเป็น spaces
+set list # เพื่อดูว่า ช่องว่างนั้นเป็น Tab หรือไม่ เพราะ yaml ของ kubernetes ไม่อนุญาติให้มี Tab
+set shiftwidth=2 # ใช้ตอนโหมด virsual(v) กรณีที่จะปรับ spaces พร้อม ๆ กัน แบบหลายบรรทัด ( shift + >)
+set nu # เพื่อแสดงตัวเลข
+set paste # เพื่อที่จะสามารถ copy and paste ลง vim แล้ว format เดิมไม่เสีย
 ```
+### [คะแนนในแต่ละหัวข้อ](https://github.com/cncf/curriculum)
+![](https://github.com/nitikornchumnankul/ckad/blob/main/resources/Exam%20Curriculum.png)
+
+### [ทำความเข้าใจในแต่ละหัวข้อ](https://github.com/nitikornchumnankul/ckad/wiki)
+
+#### [1. Core Concept](https://github.com/nitikornchumnankul/ckad/wiki/1.-Core-Concept)
+
+#### [2. Configuration](https://github.com/nitikornchumnankul/ckad/wiki/2.-Configuration)
+
+#### [3. Multi Container Pods](https://github.com/nitikornchumnankul/ckad/wiki/3.-Multi-Container-Pods)
+
+#### [4. Observability](https://github.com/nitikornchumnankul/ckad/wiki/4.-Observability)
+
+#### [5. Pod Design](https://github.com/nitikornchumnankul/ckad/wiki/5.-Pod-Design)
+
+#### [6. Services & Networking](https://github.com/nitikornchumnankul/ckad/wiki/6.-Services-&-Networking)
+
+#### [7. State Persistence](https://github.com/nitikornchumnankul/ckad/wiki/7.-State-Persistence)
+
+
+## [ตรวจสอบเครื่องมือก่อนสอบ](https://www.examslocal.com/ScheduleExam/Home/CompatibilityCheck)
+
+![](https://github.com/nitikornchumnankul/ckad/blob/main/resources/Screenshot%202020-10-10%20152928.png)
+
+## ติดตั้ง PSI, เช็คความพร้อมของเครื่องคอมและอินเตอร์เน็ต
+![](https://github.com/nitikornchumnankul/ckad/blob/main/resources/Screenshot%202020-10-10%20153029.png)
+
 ### หน้าตา Terminal ตอนสอบ
 ![หน้าตา Terminal ตอนสอบ](https://gblobscdn.gitbook.com/assets%2F-M1fWjlaqrc5PxRuWkRx%2F-MACIp1sRjCeyzqaACz5%2F-MACPci2XER6SneRwukr%2FLF%20Certification%20Exams%20ExamUI.png?alt=media&token=7c2ae009-8cd4-4d28-ae6f-d2fdcee2feb8)
 
@@ -77,11 +64,7 @@ set list
 ![หน้าตาฝึกซ้อมจำลองของ killer.sh](https://miro.medium.com/max/1000/1*lYPcto6TAy2oSh7O2u49_Q.png)
 
 
-## [ตรวจสอบเครื่องมือก่อนสอบ](https://www.examslocal.com/ScheduleExam/Home/CompatibilityCheck)
 
-![](https://github.com/nitikornchumnankul/ckad/blob/main/resources/Screenshot%202020-10-10%20152928.png)
-
-![](https://github.com/nitikornchumnankul/ckad/blob/main/resources/Screenshot%202020-10-10%20153029.png)
 
 ## [System Requirements to take the exam](https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad)
 
@@ -108,8 +91,7 @@ If you will be testing from an employer-provide ISP or will use an employer prov
 
 ### [My Profile](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/my-profile)
 ![](https://gblobscdn.gitbook.com/assets%2F-M5QaeeC1mG9VndIpgJe%2F-MCQgtM4-VukLM1tG7xH%2F-MCQmzJ_-hjLYg8SqXXM%2F2.png?alt=media&token=743afd30-84a8-4ee5-9e28-112511c8146f)
-### [คะแนนในแต่ละหัวข้อ](https://github.com/cncf/curriculum)
-![](https://github.com/nitikornchumnankul/ckad/blob/main/resources/Exam%20Curriculum.png)
+
 
 
 ## [What score is needed to pass the exam?](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks)
@@ -134,3 +116,9 @@ For the CKAD Exam, a score of 66% or above must be earned to pass.
 [ckad-prep-notes ****](https://github.com/twajr/ckad-prep-notes)
 
 [CKAD Tips Kubernetes](https://killer.sh/attendee/b3b6d191-f657-43f6-ae07-7663fe9dc375/tips)
+
+[CKAD-commands](https://github.com/marcusvieira88/CKAD-commands)
+
+[Kubernetes - tips for your CKAD exam by CNCF***](https://en.sokube.ch/post/kubernetes-tips-for-your-ckad-exam-by-cncfX)
+
+[CKAD Certification Exam Preparation Guide and Tips (Aspect)](https://kloudnative.blogspot.com/2020/09/ckad-certification-exam-preparation.html?m=1&fbclid=IwAR3x-EgpkNt2C31o9vw3jzrJSxiI2LkDW2GgQGLjgaTf0ABCAa3jaK1Ejus)
