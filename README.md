@@ -1,4 +1,5 @@
-# เตรียมสอบ CKAD ฉบับพัท (ยังเขียนไม่จบ คนเขียนไปทหารก่อน 1 ปี ปี 2564 จะมาเรียบเรียงอีกครั้งนึง) 
+# เตรียมสอบ CKAD ฉบับพัท 
+(ยังเขียนไม่จบ คนเขียนไปทหารก่อน 1 ปี ปี 2564 จะมาเรียบเรียงอีกครั้งนึง) 
 ## แนะนำบทความ
 [สอบ Certified Kubernetes Application Developer ยังไงให้ผ่าน ?(Sirinat Paphatsirinatthi)](https://medium.com/@dmakeroam/%E0%B8%AA%E0%B8%AD%E0%B8%9A-certified-kubernetes-application-developer-%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99-f74e9a65ec09)
 
