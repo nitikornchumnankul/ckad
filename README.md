@@ -3,7 +3,7 @@
 ### การเตรียมการตั้งค่าก่อนสอบ
 
 ```
-vim ~/.bashrc
+vim ~/.bashrc หรือ ไม่ต้องเข้าไปจัการส่วนนี้ก็ได้
 alias k="kubectl"
 alias kf="kubectl apply -f"
 alias kgp="kubectl get po -o wide"
