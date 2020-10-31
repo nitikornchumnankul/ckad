@@ -33,6 +33,23 @@ set paste # เพื่อที่จะสามารถ copy and paste ล�
 ### [คะแนนในแต่ละหัวข้อ](https://github.com/cncf/curriculum)
 ![](https://github.com/nitikornchumnankul/ckad/blob/main/resources/Exam%20Curriculum.png)
 
+[ทำความเข้าใจในแต่ละหัวข้อ](https://github.com/nitikornchumnankul/ckad/wiki)
+
+[1. Core Concept](https://github.com/nitikornchumnankul/ckad/wiki/1.-Core-Concept)
+
+[2. Configuration](https://github.com/nitikornchumnankul/ckad/wiki/2.-Configuration)
+
+[3. Multi Container Pods](https://github.com/nitikornchumnankul/ckad/wiki/3.-Multi-Container-Pods)
+
+[4. Observability](https://github.com/nitikornchumnankul/ckad/wiki/4.-Observability)
+
+[5. Pod Design](https://github.com/nitikornchumnankul/ckad/wiki/5.-Pod-Design)
+
+[6. Services & Networking](https://github.com/nitikornchumnankul/ckad/wiki/6.-Services-&-Networking)
+
+[7. State Persistence](https://github.com/nitikornchumnankul/ckad/wiki/7.-State-Persistence)
+
+
 ## [ตรวจสอบเครื่องมือก่อนสอบ](https://www.examslocal.com/ScheduleExam/Home/CompatibilityCheck)
 
 ![](https://github.com/nitikornchumnankul/ckad/blob/main/resources/Screenshot%202020-10-10%20152928.png)
