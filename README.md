@@ -81,7 +81,7 @@ set paste # เพื่อที่จะสามารถ copy and paste ล�
 For the CKAD Exam, a score of 66% or above must be earned to pass.
 
 
-# References
+# เนื้อหาที่เกี่ยวข้อง
 
 [ตัวอย่างข้อสอบ](https://www.youtube.com/watch?v=5cgpFWVD8ds)
 
