@@ -31,7 +31,7 @@ x — delete character
 set tabstop=2 // เมื่อกด Tab แล้วให้ขยับหรือ หยุดที่ 2 space
 set expandtab // เอาไว้ตอนกด Tab และให้เปลี่ยนเป็น spaces
 set list //เพื่อดูว่า ช่องว่างนั้นเป็น Tab หรือไม่ เพราะ yaml ของ kubernetes ไม่อนุญาติให้มี Tab
-set shiftwidth=2
+set shiftwidth=2 ใช้ตอนโหมด virsual(v) กรณีที่จะปรับ spaces พร้อม ๆ กัน แบบหลายบรรทัด
 set nu //เพื่อแสดงตัวเลข
 set paste //เพื่อที่จะสามารถ copy and paste ลง vim แล้ว format เดิมไม่เสีย
 ```
