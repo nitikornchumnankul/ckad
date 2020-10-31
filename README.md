@@ -62,6 +62,8 @@ set paste # เพื่อที่จะสามารถ copy and paste ล�
 
 [2. ขั้นตอนการนัดหมายวันสอบ](https://github.com/nitikornchumnankul/ckad/wiki/%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%99%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%AD%E0%B8%9A)
 
+[3. ข้อกำหนดก่อนเข้าสอบ](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/candidate-requirements)
+
 ### หน้าตา Terminal ตอนสอบ
 ![หน้าตา Terminal ตอนสอบ](https://gblobscdn.gitbook.com/assets%2F-M1fWjlaqrc5PxRuWkRx%2F-MACIp1sRjCeyzqaACz5%2F-MACPci2XER6SneRwukr%2FLF%20Certification%20Exams%20ExamUI.png?alt=media&token=7c2ae009-8cd4-4d28-ae6f-d2fdcee2feb8)
 
